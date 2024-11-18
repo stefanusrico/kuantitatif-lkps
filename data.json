@@ -1,0 +1,82 @@
+[
+  {
+    "nomor": "1",
+    "lembaga_mitra": "Universitas Cambridge",
+    "tingkat": "Internasional",
+    "judul_kegiatan": "Pertukaran Mahasiswa dan Dosen",
+    "manfaat": "Peningkatan kualitas pendidikan dan pengajaran",
+    "waktu_durasi": "2022-2026 (4 tahun)",
+    "bukti_kerjasama": "MoU",
+    "tahun_berakhir": "2026"
+  },
+  {
+    "nomor": "2",
+    "lembaga_mitra": "Kementerian Pendidikan",
+    "tingkat": "Nasional",
+    "judul_kegiatan": "Pelatihan Kurikulum Berbasis Kompetensi",
+    "manfaat": "Meningkatkan kompetensi pengajar",
+    "waktu_durasi": "2021-2023 (2 tahun)",
+    "bukti_kerjasama": "Surat Perjanjian",
+    "tahun_berakhir": "2023"
+  },
+  {
+    "nomor": "3",
+    "lembaga_mitra": "Pemda Kota Bandung",
+    "tingkat": "Wilayah/Lokal",
+    "judul_kegiatan": "Program Magang Mahasiswa",
+    "manfaat": "Meningkatkan keterampilan praktis mahasiswa",
+    "waktu_durasi": "2023-2024 (1 tahun)",
+    "bukti_kerjasama": "Nota Kesepahaman\t",
+    "tahun_berakhir": "2025"
+  },
+  {
+    "nomor": "4",
+    "lembaga_mitra": "PT. Astra Internasional",
+    "tingkat": "Nasional",
+    "judul_kegiatan": "Riset Kolaboratif di Bidang Teknik Mesin",
+    "manfaat": "Pengembangan riset dan inovasi",
+    "waktu_durasi": "2020-2025 (5 tahun)",
+    "bukti_kerjasama": "MoU",
+    "tahun_berakhir": "2025"
+  },
+  {
+    "nomor": "5",
+    "lembaga_mitra": "National University of Singapore",
+    "tingkat": "Nasional",
+    "judul_kegiatan": "Seminar Internasional Teknologi AI",
+    "manfaat": "Pembaruan pengetahuan terkini terkait teknologi AI",
+    "waktu_durasi": "2021-2025 (4 tahun)\t",
+    "bukti_kerjasama": "MoU",
+    "tahun_berakhir": "2023"
+  },
+  {
+    "nomor": "6",
+    "lembaga_mitra": "Dinas Kesehatan Provinsi",
+    "tingkat": "Wilayah/Lokal",
+    "judul_kegiatan": "Kampanye Kesehatan dan Edukasi",
+    "manfaat": "Meningkatkan kontribusi pengabdian kepada masyarakat",
+    "waktu_durasi": "2022-2023 (1 tahun)",
+    "bukti_kerjasama": "Nota Kesepahaman\t",
+    "tahun_berakhir": "2023"
+  },
+  {
+    "nomor": "7",
+    "lembaga_mitra": "Lembaga Ilmu Pengetahuan Indonesia (LIPI)",
+    "tingkat": "Nasional",
+    "judul_kegiatan": "Penelitian Bersama tentang Bioteknologi",
+    "manfaat": "Menambah publikasi ilmiah dan peningkatan reputasi akademik",
+    "waktu_durasi": "2019-2024 (5 tahun)",
+    "bukti_kerjasama": "Perjanjian Kerjasama",
+    "tahun_berakhir": "2024"
+  },
+  {
+    "nomor": "8",
+    "lembaga_mitra": "Politeknik Negeri Jakarta",
+    "tingkat": "Wilayah/Lokal",
+    "judul_kegiatan": "Workshop Keterampilan Industri 4.0",
+    "manfaat": "Pengembangan keahlian praktis mahasiswa dan dosen",
+    "waktu_durasi": "2023-2026 (3 tahun)",
+    "bukti_kerjasama": "Surat Perjanjian",
+    "tahun_berakhir": "2026"
+  }
+]

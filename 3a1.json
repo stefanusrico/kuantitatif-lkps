@@ -1,0 +1,622 @@
+[
+  {
+    "nomor": "1",
+    "nama_dosen": "Ade Suryatman Margana, S.T., M.Eng.",
+    "nidn/nidk": "0011076005",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin Konversi Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "11100500400227",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor Kompetensi BNSP no Reg MET.000.000912 2015, Ahli K3 Umum",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Teknik Kerja Bangku dan Las (P), Manajemen Perawatan (T), SOP dan Regulasi RHVAC (T), Proyek Perawatan (P), Teknik Pemipaan dan Kerja Pelat (P), K3 (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Teknik Kerja Bangku dan Pemipaan (P), Manajemen dan Teknik Perawatan (T), K3 (T)"
+  },
+  {
+    "nomor": "2",
+    "nama_dosen": "Prof. Dr. Andriyanto Setyawan, S.T., M.T.",
+    "nidn/nidk": "0006026702",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Fisika",
+      "doktor/doktor_terapan": "Teknik Mesin"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Guru Besar",
+    "nomor_sertifikat_pendidik_profesional": "91106001867",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor Kompetensi BNSP no reg MET.000.000909 2015, Ahli K3 Umum",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Plambing dan Pencegahan Kebakaran (P), Manajemen Perawatan (P), Sistem Tata Udara 1 (T), Sistem Tata Udara 2 (T), Perancangan Sistem Tata Udara (P), Kelayakan Proyek Tata Udara (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem RHVAC (P), Sistem Tata Udara 2 (T/P), Sistem Tata Udara (T), Perancangan Sistem Tata Udara (P)"
+  },
+  {
+    "nomor": "3",
+    "nama_dosen": "Annisa Syafitri Kurniasetiawati, S.ST., M.Sc.",
+    "nidn/nidk": "0017049113",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Efisiensi Energi",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Tenaga Pengajar",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Refrigerasi Terapan 1 (P), Instalasi Sistem Refrigerasi 2 (P), Kompresor dan Mesin Fluida (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem Refrigerasi 1 (P), Perancangan Sistem Refrigerasi (P), Dasar Refrigerasi (T), Instalasi Sistem Refrigerasi 2 (P), Refrigerasi Terapan (P)"
+  },
+  {
+    "nomor": "4",
+    "nama_dosen": "Dr. Apip Badarudin, S.T., M.T",
+    "nidn/nidk": "0030126603",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Fisika",
+      "doktor/doktor_terapan": "Teknik Mesin"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "91106001551",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg MET.000.000914 2015",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Refrigerasi Terapan 1 (P), Dasar Refrigerasi (P), Refrigerasi Makanan (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem Refrigerasi 1 (P), Refrigerasi Terapan (P), Perancangan Sistem Refrigerasi (P), Refrigerasi Terapan (P), Dasar Refrigerasi (P), Refrigerasi Makanan (T), Refrigerasi Terapan (P)"
+  },
+  {
+    "nomor": "5",
+    "nama_dosen": "A. P. Edi Sukamto, S.T., M.T.",
+    "nidn/nidk": "0018045806",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Manufaktur",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "12100500402366",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Teknik Refrigerasi",
+      "lembaga_penerbit": "Kementerian Pendidikan dan Kebudayaan"
+    },
+    "mata_kuliah_diampu": "Gambar Teknik 1 (T/P), Perancangan Sistem Refrigerasi (P), Teknik Pemipaan dan Kerja Pelat (P), Gambar Teknik 2 (T/P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Gambar Teknik 1 (T/P), Gambar Teknik 2 (T/P)"
+  },
+  {
+    "nomor": "6",
+    "nama_dosen": "Ary Surjanto, S.T., M.T.",
+    "nidn/nidk": "0022057104",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Elektro",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Audio Engineering",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "11100500401401",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Teknik Refrigerasi",
+      "lembaga_penerbit": "Kementerian Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "Dasar Teknik Listrik (P), Dasar Kontrol RHVAC (P), Elektronika (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Teknik Listrik (P), Elektronika (P), Aplikasi Kontrol RHVAC (P), Dasar Pemrograman (P), Kelistrikan RHVAC (P), Etika Profesi (T), Tugas Akhir (P)"
+  },
+  {
+    "nomor": "7",
+    "nama_dosen": "Bowo Yuli Prasetyo, S.ST., M.Sc.",
+    "nidn/nidk": "0020079301",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Refrigeration, Air Conditioning and Energy Engineering",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Refrigerasi dan Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Asisten Ahli",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg MET.000.001021 2022",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Instalasi Sistem Refrigerasi 1 (P), Perancangan Sistem Refrigerasi (P), Refrigerasi Terapan 1 (P), Dasar Refrigerasi (P), Refrigerasi Terapan 2 (P), Trouble Shooting (P), Kompresor dan Mesin Fluida (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem Refrigerasi 1 (P), Dasar Refrigerasi (P), Instalasi Sistem Refrigerasi 2 (P), Manajemen dan Teknik Perawatan (P), Refrigerasi Terapan (P)"
+  },
+  {
+    "nomor": "8",
+    "nama_dosen": "Cecep Sunardi, S.T., M.Eng.",
+    "nidn/nidk": "0021086708",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin Konversi Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "13100500404497",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor Kompetensi BNSP no reg MET.000.005527 2016",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Teknik Kerja Bangku dan Las (P), Teknik Pemipaan dan Kerja Pelat (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Teknik Kerja Bangku dan Pemipaan (P), Teknik Kerja Bangku dan Las (P)"
+  },
+  {
+    "nomor": "9",
+    "nama_dosen": "Ir. Eddy Erham, M.T.",
+    "nidn/nidk": "0010045905",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Pengolahan citra digital",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "91106001868",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Teknik Refrigerasi dan Tata Udara",
+      "lembaga_penerbit": "Kementerian Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "Dasar Kontrol RHVAC (P), Elektronika (P), Sistem Pengukuran (P), Tugas Akhir (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Elektronika (P), Instrumentasi (P), Aplikasi Kontrol RHVAC (T/P), Dasar Pemrograman (P), Kontrol Otomatik (T)"
+  },
+  {
+    "nomor": "10",
+    "nama_dosen": "Drs. Ismail Wellid, M.T.",
+    "nidn/nidk": "0020086302",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Audio Engineering",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "91106001747",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor Kompetensi BNSP no reg MET.000.000916 2015",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Dasar Kontrol RHVAC (P), Kontrol Otomatik (T), Teknik Perawatan (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Teknik Listrik (P), Elektronika (P), Instrumentasi (P), Instalasi Sistem RHVAC (P), Aplikasi Kontrol RHVAC (T/P), Kelistrikan RHVAC (P), Manajemen dan Teknik Perawatan (P)"
+  },
+  {
+    "nomor": "11",
+    "nama_dosen": "Luga Martin Simbolon, S.T., M.Sc., Ph.D",
+    "nidn/nidk": "0026018102",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Building Services Engineering with Sustainable Energy",
+      "doktor/doktor_terapan": "Mechanical Engineering"
+    },
+    "bidang_keahlian": "Teknik Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "12100500405047",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Keselamatan dan Kesehatan Kerja BNSP no reg MET. TTI.102.022582 2021, Ahli K3",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Plambing dan Pencegahan Kebakaran (T/P), Manajemen Perawatan (P), Sistem Tata Udara 2 (P), SOP dan Regulasi RHVAC (P), Utilitas Bangunan (T), Kompresor dan Mesin Fluida (P), Sistem Tata Udara 1 (P), Perancangan Sistem Tata Udara (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Tata Udara (P), Instalasi Sistem RHVAC (P), Plambing dan Pencegahan Kebakaran (T), Sistem Tata Udara (P), Perancangan Sistem Tata Udara (P)"
+  },
+  {
+    "nomor": "12",
+    "nama_dosen": "Markus, S.T., M.T.",
+    "nidn/nidk": "0026045804",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin Konversi Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Material",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "101106006644",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Ilmu Refrigerasi",
+      "lembaga_penerbit": "Kementerian Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "Teknik Kerja Bangku dan Las (P), Perpindahan Kalor (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Teknik Kerja Bangku dan Pemipaan (P), Teknik Kerja Bangku dan Las (P), Mekanika Fluida (T), Manajemen dan Teknik Perawatan (P)"
+  },
+  {
+    "nomor": "13",
+    "nama_dosen": "Muhamad Anda Falahuddin, S.T., M.T.",
+    "nidn/nidk": "0024096303",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Elektro",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Instrumentasi dan Kontrol",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "91106001582",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor Kompetensi BNSP no reg MET.000.000910 2015, Ahli K3 Umum, Ahli Pengadaan Barang dan Jasa",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Dasar Teknik Listrik (T/P), Motor Listrik (T/P), Etika Profesi (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Teknik Listrik (T/P), Teknik Kerja Bangku dan Pemipaan (P), Instrumentasi (P), Kelistrikan RHVAC (T/P), Teknik Kerja Bangku dan Las (P), Tugas Akhir (P)"
+  },
+  {
+    "nomor": "14",
+    "nama_dosen": "Muhammad Akmal, S.T., M.T.",
+    "nidn/nidk": "0023099203",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Konversi Energi ",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Tenaga Pengajar",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Instalasi Sistem Refrigerasi 1 (P), Kelayakan Proyek Refrigerasi (P), Instalasi Sistem Refrigerasi 2 (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem Refrigerasi 1 (P), Dasar Refrigerasi (T), Instalasi Sistem Refrigerasi 2 (P), Refrigerasi Terapan (P)"
+  },
+  {
+    "nomor": "15",
+    "nama_dosen": "Muhammad Arman, S.T., S.Psi. M.Eng",
+    "nidn/nidk": "0030036904",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Instrumentasi Energi",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "15100500402876",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Keselamatan dan Kesehatan Kerja BNSP no reg MET. TTI.102.022694 2021, Ahli K3",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Motor Listrik (P), Kelayakan Proyek Refrigerasi (P), Seminar (P), Etika Profesi (T), Kelayakan Proyek Tata Udara (P), Automasi Sistem Refrigerasi dan Tata Udara (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instrumentasi (T/P), Sistem Pengukuran (T), Etika Profesi (T)"
+  },
+  {
+    "nomor": "16",
+    "nama_dosen": "Nani Yuningsih, S.Si., M.Si.",
+    "nidn/nidk": "0019067001",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Fisika Material",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "91106004094",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Fisika",
+      "lembaga_penerbit": "Departemen Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "FIsika Terapan A (T), Dasar Tata Udara (P), Tata Udara Terapan (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Termodinamika Teknik (T), Tata Udara Terapan (P)"
+  },
+  {
+    "nomor": "17",
+    "nama_dosen": "Nur Khakim, S.T., M.Sc.",
+    "nidn/nidk": "0029046504",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Sustainability Energy Competence",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Biogas",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Asisten Ahli",
+    "nomor_sertifikat_pendidik_profesional": "11100500408574",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Teknik Refrigerasi",
+      "lembaga_penerbit": "Kementerian Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "Dasar Kontrol RHVAC (P), Elektronika (P), Motor Listrik (P), Proyek Perawatan (P), Sistem Pengukuran (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Elektronika (P), Dasar Tata Udara (P), Aplikasi Kontrol RHVAC (P), Dasar Pemrograman (P)"
+  },
+  {
+    "nomor": "18",
+    "nama_dosen": "Parisya Premiera Rosulindo, S.ST., M.Sc.",
+    "nidn/nidk": "0016129306",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Refrigerasi, Tata Udara dan Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Refrigerasi dan Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Tenaga Pengajar",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Gambar Teknik 1 (P), Instalasi Sistem Refrigerasi 1 (P), Perancangan Sistem Refrigerasi (P), Dasar Refrigerasi (T), Teknik Pemipaan dan Kerja Pelat (P), Gambar Teknik 2 (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Perancangan Sistem Refrigerasi (P), Gambar Teknik 2 (P), Sistem Tata Udara (P), Instalasi Sistem Refrigerasi 2 (P)"
+  },
+  {
+    "nomor": "19",
+    "nama_dosen": "Dr. Drs. Pratikto. M.T.",
+    "nidn/nidk": "0017036602",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Fisika",
+      "doktor/doktor_terapan": "Teknik Fisika"
+    },
+    "bidang_keahlian": "Robotika dan AI",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "11100500409029",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg. MET.000.015536 2019",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Dasar Teknik Listrik (P), Elektronika (T/P), Motor Listrik (P), Sistem Pengukuran (T/P), Aplikasi Pemrograman (T/P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Elektronika (T/P), Aplikasi Kontrol RHVAC (P), Dasar Pemrograman (T/P)"
+  },
+  {
+    "nomor": "20",
+    "nama_dosen": "Rizki Muliawan, S.Pd., M.T.",
+    "nidn/nidk": "0017038707",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg. MET.000.015707 2019",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Instalasi Sistem Refrigerasi 1 (P), Dasar Refrigerasi (P), Instalasi Sistem Refrigerasi 2 (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Instalasi Sistem Refrigerasi 1 (P), Perancangan Sistem Refrigerasi (P), Refrigerasi Terapan (P), Instalasi Sistem Refrigerasi 2 (P)"
+  },
+  {
+    "nomor": "21",
+    "nama_dosen": "Dra. Sri Murniati, M.Pd.",
+    "nidn/nidk": "0023105804",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Pendidikan Bahasa Indonesia",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Linguistik Terapan Lainnya yang Belum Diklasifikasikan",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "11100500410854",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Sastra (dan Bahasa) Indonesia",
+      "lembaga_penerbit": "Kementerian Pendidikan Nasional"
+    },
+    "mata_kuliah_diampu": "Bahasa Indonesia (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Bahasa Indonesia (T)"
+  },
+  {
+    "nomor": "22",
+    "nama_dosen": "Ir. Sugiyarto, M.T.",
+    "nidn/nidk": "0022096102",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Fisika Teknik",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Asisten Ahli",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Dasar Tata Udara (T/P), Plambing dan Pencegahan Kebakaran (P), Manajemen Perawatan (P), Sistem Tata Udara 2 (P), SOP dan Regulasi RHVAC (P), Mekanika Fluida Terapan (T), Teknik Perawatan (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Tata Udara (P), Instalasi Sistem RHVAC (P), Sistem Tata Udara 2 (P), Manajemen dan Teknik Perawatan (P), Sistem Tata Udara (P), Perancangan Sistem Tata Udara (P), Tata Udara Terapan (P)"
+  },
+  {
+    "nomor": "23",
+    "nama_dosen": "Prof. Ir. Sumeru, M.T., Ph.D",
+    "nidn/nidk": "0018056503",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Lingkungan",
+      "doktor/doktor_terapan": "Mechanical Engineering"
+    },
+    "bidang_keahlian": "Teknik Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Guru Besar",
+    "nomor_sertifikat_pendidik_profesional": "8106009541",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Reviewer penelitian nasional, reviewer jurnal international bereputasi.",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Termodinamika Terapan (T), Pengetahuan Lingkungan (T), Proyek Perawatan (P), Seminar (P), Pengenalan Refrigerasi dan Tata Udara (T), Tata Udara Terapan (T/P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Pengetahuan Lingkungan (T), Tata Udara Terapan (T/P)"
+  },
+  {
+    "nomor": "24",
+    "nama_dosen": "Susilawati, S.T., M.Eng.",
+    "nidn/nidk": "0009108204",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Teknik Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "17100500402795",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Teknik Mesin (dan Ilmu Permesinan)",
+      "lembaga_penerbit": "Kementrian Riset Teknologi dan Pendidikan Tinggi"
+    },
+    "mata_kuliah_diampu": "Teknik Kerja Bangku dan Las (P), Dasar Tata Udara (P), Sistem Tata Udara 2 (P), SOP dan Regulasi RHVAC (P), Kompresor dan Mesin Fluida (P), Sistem Tata Udara 1 (P), Kelayakan Proyek Tata Udara (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Tata Udara (T/P), Sistem Tata Udara 2 (P), Manajemen dan Teknik Perawatan (P), Sistem Tata Udara (P), Perancangan Sistem Tata Udara (P)"
+  },
+  {
+    "nomor": "25",
+    "nama_dosen": "Triaji Pangripto Pramudantoro, S.T., M.Eng.",
+    "nidn/nidk": "0022026005",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin Konversi Energi",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Sistem Pendingin dan Kriogenika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "120010020765",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg. MET.000.015533 2019",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Refrigerasi Terapan 1 (T), Refrigerasi Terapan 2 (P), Teknik Perawatan (P), Penukar Kalor (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Perancangan Sistem Refrigerasi (P), Refrigerasi Terapan (T/P), Dasar Refrigerasi (P), Perpindahan Kalor (T)"
+  },
+  {
+    "nomor": "26",
+    "nama_dosen": "Dr. Ir. Windy Hermawan Mitrakusuma, M.T.",
+    "nidn/nidk": "0024016301",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Mesin",
+      "doktor/doktor_terapan": "Teknik Mesin"
+    },
+    "bidang_keahlian": "Refrigerasi dan Tata Udara",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "91106001882",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg. MET.000.010850 2019",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Seminar (P), Dasar Refrigerasi (T), Refrigerasi Terapan 2 (T), Kelayakan Proyek Refrigerasi (P), Kelayakan Proyek Tata Udara (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Sistem Refrigerasi (T), Refrigerasi Terapan (P), Perancangan Sistem Refrigerasi (P), Dasar Refrigerasi (T)"
+  },
+  {
+    "nomor": "27",
+    "nama_dosen": "Wirenda Sekar Ayu, S.T., M.T.",
+    "nidn/nidk": "0023099701",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Teknik Elektro",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Instrumentasi dan Kontrol",
+    "kesesuaian_dengan_kompetensi_inti_ps": "V",
+    "jabatan_akademik": "Asisten Ahli",
+    "nomor_sertifikat_pendidik_profesional": "-",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "Asesor kompetensi BNSP no reg. MET.000.001018 2022",
+      "lembaga_penerbit": "Badan Nasional Sertifikasi Profesi (BNSP)"
+    },
+    "mata_kuliah_diampu": "Dasar Teknik Listrik (T/P), Dasar Kontrol RHVAC (T), Sistem Pengukuran (P), Aplikasi Pemrograman (P), Perancangan Sistem Tata Udara (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Teknik Listrik (T/P), Instalasi Sistem RHVAC (P), Instrumentasi (P), Kelistrikan RHVAC (T/P)"
+  },
+  {
+    "nomor": "28",
+    "nama_dosen": "Agus Binarto, S.Si., M.Si.",
+    "nidn/nidk": "0023086808",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Matematika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Matematika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor",
+    "nomor_sertifikat_pendidik_profesional": "",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Matematika Terapan B (T)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "-"
+  },
+  {
+    "nomor": "29",
+    "nama_dosen": "Dra. Kun Lestiowati Hadiningrum, M.Si.",
+    "nidn/nidk": "0031036001",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Fisika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Tata Udara Terapan (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "Dasar Tata Udara (P), Tata Udara Terapan (P)"
+  },
+  {
+    "nomor": "30",
+    "nama_dosen": "Drs. Sardjito, M.Sc.",
+    "nidn/nidk": "0006075803",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Fisika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Lektor Kepala",
+    "nomor_sertifikat_pendidik_profesional": "",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Fisika Terapan A (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "-"
+  },
+  {
+    "nomor": "31",
+    "nama_dosen": "Yunita Citra Dewi, S.Si., M.Si.",
+    "nidn/nidk": "0014068903",
+    "nama_prodi_pasca_sarjana": {
+      "magister/magister_terapan": "Fisika",
+      "doktor/doktor_terapan": "-"
+    },
+    "bidang_keahlian": "Fisika",
+    "kesesuaian_dengan_kompetensi_inti_ps": "",
+    "jabatan_akademik": "Asisten Ahli",
+    "nomor_sertifikat_pendidik_profesional": "",
+    "sertifikat_kompetensi": {
+      "bidang_sertifikat": "",
+      "lembaga_penerbit": ""
+    },
+    "mata_kuliah_diampu": "Fisika Terapan A (P), Sistem Tata Udara 1 (P)",
+    "kesesuaian_bidang_keahlian_dengan_mk": "V",
+    "mata_kuliah_diampu_pada_ps_lain": "-"
+  }
+]

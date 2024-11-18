@@ -1,0 +1,82 @@
+[
+  {
+    "tahun_akademik": "TS-4",
+    "daya_tampung": "32",
+    "jumlah_calon_mahasiswa": {
+      "pendaftar": "452",
+      "lulus": "32"
+    },
+    "jumlah_mahasiswa_baru": {
+      "reguler": "31",
+      "transfer": "0"
+    },
+    "jumlah_mahasiswa_aktif": {
+      "reguler": "119",
+      "transfer": "0"
+    }
+  },
+  {
+    "tahun_akademik": "TS-3",
+    "daya_tampung": "32",
+    "jumlah_calon_mahasiswa": {
+      "pendaftar": "510",
+      "lulus": "32"
+    },
+    "jumlah_mahasiswa_baru": {
+      "reguler": "31",
+      "transfer": "0"
+    },
+    "jumlah_mahasiswa_aktif": {
+      "reguler": "119",
+      "transfer": "0"
+    }
+  },
+  {
+    "tahun_akademik": "TS-2",
+    "daya_tampung": "32",
+    "jumlah_calon_mahasiswa": {
+      "pendaftar": "257",
+      "lulus": "32"
+    },
+    "jumlah_mahasiswa_baru": {
+      "reguler": "32",
+      "transfer": "0"
+    },
+    "jumlah_mahasiswa_aktif": {
+      "reguler": "121",
+      "transfer": "0"
+    }
+  },
+  {
+    "tahun_akademik": "TS-1",
+    "daya_tampung": "32",
+    "jumlah_calon_mahasiswa": {
+      "pendaftar": "236",
+      "lulus": "32"
+    },
+    "jumlah_mahasiswa_baru": {
+      "reguler": "32",
+      "transfer": "0"
+    },
+    "jumlah_mahasiswa_aktif": {
+      "reguler": "120",
+      "transfer": "0"
+    }
+  },
+  {
+    "tahun_akademik": "TS",
+    "daya_tampung": "64",
+    "jumlah_calon_mahasiswa": {
+      "pendaftar": "287",
+      "lulus": "64"
+    },
+    "jumlah_mahasiswa_baru": {
+      "reguler": "64",
+      "transfer": "0"
+    },
+    "jumlah_mahasiswa_aktif": {
+      "reguler": "152",
+      "transfer": "0"
+    }
+  }
+]
