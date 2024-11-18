@@ -3,7 +3,8 @@ const { google } = require("googleapis")
 const app = express()
 const fs = require("fs")
 const PORT = process.env.PORT || 3000
-const keyFilePath = "elkapees-009735b713b8.json"
+const keyFilePath = "data/elkapees-009735b713b8.json"
+const path = require("path")
 
 const auth = new google.auth.GoogleAuth({
   keyFile: keyFilePath,
@@ -152,7 +153,7 @@ const createTableRouteKerjasama = (sheetName, tableNumber, rangeCells) => {
     try {
       const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
       const range = `'${sheetName}'!${rangeCells}`
-      const outputFile = `${tableNumber}.json`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
 
       const data = await getDataTabelKerjasama(spreadsheetId, range, outputFile)
       res.status(200).json(data)
@@ -169,7 +170,7 @@ const createTableRouteDosenTetap = (sheetName, tableNumber, rangeCells) => {
     try {
       const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
       const range = `'${sheetName}'!${rangeCells}`
-      const outputFile = `${tableNumber}.json`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
 
       const data = await getDataTabelDosenTetap(
         spreadsheetId,
@@ -194,7 +195,7 @@ const createTableRouteSeleksiMahasiswa = (
     try {
       const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
       const range = `'${sheetName}'!${rangeCells}`
-      const outputFile = `${tableNumber}.json`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
 
       const data = await getDataTabelSeleksiMahasiswa(
         spreadsheetId,
