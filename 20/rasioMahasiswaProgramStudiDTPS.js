@@ -61,8 +61,8 @@ function calculateRMDAndScore(NM, NDTPS) {
   return { rmd, score }
 }
 
-const mahasiswaData = readJsonSync("2a1.json")
-const NDTPS = readJumlahKesesuaianDosenTetap("3a1.json")
+const mahasiswaData = readJsonSync("../data/2a1.json")
+const NDTPS = readJumlahKesesuaianDosenTetap("../data/3a1.json")
 
 console.log("\nHasil Perhitungan RMD dan Skor:")
 console.log("================================")

@@ -68,7 +68,7 @@ function hitungTingkatKerjasamaMultiFile(fileNames) {
   }
 }
 
-const files = ["1-1.json", "1-2.json", "1-3.json"]
+const files = ["../data/1-1.json", "../data/1-2.json", "../data/1-3.json"]
 
 const hasil = hitungTingkatKerjasamaMultiFile(files)
 

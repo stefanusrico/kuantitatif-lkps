@@ -38,10 +38,10 @@ const variabelKerjasamaPendidikanPenelitianPKM = {
   a: 3,
   b: 1,
   c: 2,
-  N1: readJsonLengthSync("1-1.json"),
-  N2: readJsonLengthSync("1-2.json"),
-  N3: readJsonLengthSync("1-3.json"),
-  NDTPS: readJumlahKesesuaianDosenTetap("3a1.json"),
+  N1: readJsonLengthSync("../data/1-1.json"),
+  N2: readJsonLengthSync("../data/1-2.json"),
+  N3: readJsonLengthSync("../data/1-3.json"),
+  NDTPS: readJumlahKesesuaianDosenTetap("../data/3a1.json"),
 }
 
 console.log("NDTPS", variabelKerjasamaPendidikanPenelitianPKM.NDTPS)

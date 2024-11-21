@@ -29,6 +29,22 @@ function readJsonLengthSync(filePath) {
   }
 }
 
+function readJumlahSertifikatKompetensi(filePath) {
+  try {
+    const rawData = fs.readFileSync(filePath, "utf8")
+    const data = JSON.parse(rawData)
+    const jumlahSertifikatKompetensi = data.filter(
+      (item) => item.sertifikat_kompetensi.lembaga_penerbit != ""
+    ).length
+
+    console.log(`Jumlah dosen dengan kesesuaian: ${jumlahSertifikatKompetensi}`)
+    return jumlahSertifikatKompetensi
+  } catch (error) {
+    console.error("Error reading JSON file:", error.message)
+    return []
+  }
+}
+
 function readJumlahKesesuaianDosenTetap(filePath) {
   try {
     const rawData = fs.readFileSync(filePath, "utf8")
@@ -45,33 +61,22 @@ function readJumlahKesesuaianDosenTetap(filePath) {
   }
 }
 
-const variabelKecupukanJumlahDTPS = {
-  NDTPS: readJumlahKesesuaianDosenTetap("3a1.json"),
-  NDTT: readJsonLengthSync("3a4.json"),
-  NDT: readJsonLengthSync("3a1.json"),
+const variabelSertifikatKompetensi = {
+  NDSK: readJumlahSertifikatKompetensi("../data/3a1.json"),
+  NDTPS: readJumlahKesesuaianDosenTetap("../data/3a1.json"),
 }
 
-variabelKecupukanJumlahDTPS.PDTT =
-  (variabelKecupukanJumlahDTPS.NDTT /
-    (variabelKecupukanJumlahDTPS.NDT + variabelKecupukanJumlahDTPS.NDTT)) *
-  100
-variabelKecupukanJumlahDTPS.A = (variabelKecupukanJumlahDTPS.NDTPS - 3) / 9
-variabelKecupukanJumlahDTPS.B =
-  (40 / 100 - variabelKecupukanJumlahDTPS.PDTT / 100) / (30 / 100)
+variabelSertifikatKompetensi.PDSK =
+  (variabelSertifikatKompetensi.NDSK / variabelSertifikatKompetensi.NDTPS) * 100
 
-console.log(variabelKecupukanJumlahDTPS)
+console.log(variabelSertifikatKompetensi)
 
 const formula = `
-  if(NDTPS >= 12 and PDTT <= 10, 4,
-    if((NDTPS >= 12 and PDTT > 10 and PDTT <= 40) || (3 <= NDTPS and NDTPS < 12 and PDTT > 10 and PDTT <= 40), 2 + (2 * B),
-      if(3 <= NDTPS and NDTPS < 12 and PDTT > 40, 1,
-        if(NDTPS <= 3 and PDTT == 0, 0,
-          0
-        )
-      )
+  if(PDSK >= 50, 4,
+    if(PDSK < 50, max(1, 1 + (6 * (PDSK/100))),0
     )
   )
 `
 
-const result = parser.evaluate(formula, variabelKecupukanJumlahDTPS)
+const result = parser.evaluate(formula, variabelSertifikatKompetensi)
 console.log("Skor:", result)

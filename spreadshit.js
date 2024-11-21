@@ -102,6 +102,54 @@ const getDataTabelDosenTetap = async (spreadsheetId, range, outputFile) => {
   return formattedDataTabelDosenTetap
 }
 
+const getDataTabelDosenTidakTetap = async (
+  spreadsheetId,
+  range,
+  outputFile
+) => {
+  const client = await auth.getClient()
+  const sheets = google.sheets({ version: "v4", auth: client })
+
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId: spreadsheetId,
+    range: range,
+    majorDimension: "ROWS",
+  })
+
+  const rows = response.data.values
+  if (!rows || rows.length === 0) {
+    return []
+  }
+
+  const formattedDataTabelDosenTidakTetap = rows
+    .filter((row) => row[0] && row[1]) // Filter out empty rows
+    .map((row) => ({
+      nomor: row[0] || "",
+      nama_dosen: row[1] || "",
+      "nidn/nidk": row[2] || "",
+      nama_prodi_pasca_sarjana: {
+        "magister/magister_terapan": row[3] || "",
+        "doktor/doktor_terapan": row[4] || "",
+      },
+      bidang_keahlian: row[5] || "",
+      jabatan_akademik: row[6] || "",
+      nomor_sertifikat_pendidik_profesional: row[7] || "",
+      sertifikat_kompetensi: {
+        bidang_sertifikat: row[8] || "",
+        lembaga_penerbit: row[9] || "",
+      },
+      mata_kuliah_diampu: row[10] || "",
+      kesesuaian_bidang_keahlian_dengan_mk: row[11] || "",
+    }))
+
+  fs.writeFileSync(
+    outputFile,
+    JSON.stringify(formattedDataTabelDosenTidakTetap, null, 2)
+  )
+
+  return formattedDataTabelDosenTidakTetap
+}
+
 const getDataTabelSeleksiMahasiswa = async (
   spreadsheetId,
   range,
@@ -148,6 +196,98 @@ const getDataTabelSeleksiMahasiswa = async (
   return formattedDataTabelSeleksiMahasiswa
 }
 
+const getDataTabelDosenTetapPembimbingTugasAkhir = async (
+  spreadsheetId,
+  range,
+  outputFile
+) => {
+  const client = await auth.getClient()
+  const sheets = google.sheets({ version: "v4", auth: client })
+
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId: spreadsheetId,
+    range: range,
+    majorDimension: "ROWS",
+  })
+
+  const rows = response.data.values
+  if (!rows || rows.length === 0) {
+    return []
+  }
+
+  const formattedDataTabelDosenTetapPembimbingTugasAkhir = rows
+    .filter((row) => row[0] && row[1] && row[5] && row[9]) // Filter out empty rows
+    .map((row) => ({
+      nomor: row[0] || "",
+      nama_dosen: row[1] || "",
+      jumlah_mahasiswa_yang_dibimbing: {
+        pada_ps_diakreditasi: {
+          "ts-2": row[2] || "",
+          "ts-1": row[3] || "",
+          ts: row[4] || "",
+          "rata-rata": row[5] || "",
+        },
+        pada_ps_lain_di_pt: {
+          "ts-2": row[6] || "",
+          "ts-1": row[7] || "",
+          ts: row[8] || "",
+          "rata-rata": row[9] || "",
+        },
+      },
+      "rata-rata_jumlah_bimbingan_semua_program": row[10] || "",
+    }))
+
+  fs.writeFileSync(
+    outputFile,
+    JSON.stringify(formattedDataTabelDosenTetapPembimbingTugasAkhir, null, 2)
+  )
+
+  return formattedDataTabelDosenTetapPembimbingTugasAkhir
+}
+
+const getDataTabelEkuivalensiWaktuMengajarPenuhDTPS = async (
+  spreadsheetId,
+  range,
+  outputFile
+) => {
+  const client = await auth.getClient()
+  const sheets = google.sheets({ version: "v4", auth: client })
+
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId: spreadsheetId,
+    range: range,
+    majorDimension: "ROWS",
+  })
+
+  const rows = response.data.values
+  if (!rows || rows.length === 0) {
+    return []
+  }
+
+  const formattedDataTabelEkuivalensiWaktuMengajarPenuhDTPS = rows
+    .filter((row) => row[0] && row[1] && row[2]) // Filter out empty rows
+    .map((row) => ({
+      nomor: row[0] || "",
+      nama_dosen: row[1] || "",
+      dtps: row[2] || "",
+      ps_yang_diakreditasi: row[3] || "",
+      ps_lain_di_dalam_pt: row[4] || "",
+      ps_lain_di_luar_pt: row[5] || "",
+      penelitian: row[6] || "",
+      pkm: row[7] || "",
+      tugas_tambahan: row[8] || "",
+      jumlah_per_tahun: row[9] || "",
+      jumlah_per_semester: row[10] ? row[10].trim() : "",
+    }))
+
+  fs.writeFileSync(
+    outputFile,
+    JSON.stringify(formattedDataTabelEkuivalensiWaktuMengajarPenuhDTPS, null, 2)
+  )
+
+  return formattedDataTabelEkuivalensiWaktuMengajarPenuhDTPS
+}
+
 const createTableRouteKerjasama = (sheetName, tableNumber, rangeCells) => {
   return async (req, res) => {
     try {
@@ -186,6 +326,31 @@ const createTableRouteDosenTetap = (sheetName, tableNumber, rangeCells) => {
   }
 }
 
+const createTableRouteDosenTidakTetap = (
+  sheetName,
+  tableNumber,
+  rangeCells
+) => {
+  return async (req, res) => {
+    try {
+      const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
+      const range = `'${sheetName}'!${rangeCells}`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
+
+      const data = await getDataTabelDosenTidakTetap(
+        spreadsheetId,
+        range,
+        outputFile
+      )
+      res.status(200).json(data)
+    } catch (error) {
+      res
+        .status(500)
+        .send("Error fetching data from Google Sheets: " + error.message)
+    }
+  }
+}
+
 const createTableRouteSeleksiMahasiswa = (
   sheetName,
   tableNumber,
@@ -211,6 +376,56 @@ const createTableRouteSeleksiMahasiswa = (
   }
 }
 
+const createTabelDosenTetapPembimbingTugasAkhir = (
+  sheetName,
+  tableNumber,
+  rangeCells
+) => {
+  return async (req, res) => {
+    try {
+      const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
+      const range = `'${sheetName}'!${rangeCells}`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
+
+      const data = await getDataTabelDosenTetapPembimbingTugasAkhir(
+        spreadsheetId,
+        range,
+        outputFile
+      )
+      res.status(200).json(data)
+    } catch (error) {
+      res
+        .status(500)
+        .send("Error fetching data from Google Sheets: " + error.message)
+    }
+  }
+}
+
+const createTabelEkuivalensiWaktuMengajarPenuhDTPS = (
+  sheetName,
+  tableNumber,
+  rangeCells
+) => {
+  return async (req, res) => {
+    try {
+      const spreadsheetId = "1vv5jRRM_l2m-TN6yRCz8EO4sFXjQe3Q9C4hmAZWHNhE"
+      const range = `'${sheetName}'!${rangeCells}`
+      const outputFile = path.join(__dirname, "data", `${tableNumber}.json`)
+
+      const data = await getDataTabelEkuivalensiWaktuMengajarPenuhDTPS(
+        spreadsheetId,
+        range,
+        outputFile
+      )
+      res.status(200).json(data)
+    } catch (error) {
+      res
+        .status(500)
+        .send("Error fetching data from Google Sheets: " + error.message)
+    }
+  }
+}
+
 // Create routes for each table
 app.get("/data/tabel/1-1", createTableRouteKerjasama("1-1", "1-1", "A12:L49"))
 app.get("/data/tabel/1-2", createTableRouteKerjasama("1-2", "1-2", "A12:L49"))
@@ -220,6 +435,18 @@ app.get("/data/tabel/3a4", createTableRouteDosenTetap("3a4", "3a4", "A14:N45"))
 app.get(
   "/data/tabel/2a1",
   createTableRouteSeleksiMahasiswa("2a1", "2a1", "A7:H11")
+)
+app.get(
+  "/data/tabel/3a2",
+  createTabelDosenTetapPembimbingTugasAkhir("3a2", "3a2", "A9:N100")
+)
+app.get(
+  "/data/tabel/3a3",
+  createTabelEkuivalensiWaktuMengajarPenuhDTPS("3a3", "3a3", "A11:K100")
+)
+app.get(
+  "/data/tabel/3a4",
+  createTableRouteDosenTidakTetap("3a4", "3a4", "A11:K100")
 )
 
 app.listen(PORT, () => {

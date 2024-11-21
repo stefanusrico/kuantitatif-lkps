@@ -51,10 +51,10 @@ function readJabatanAkademik(filePath, jabatan) {
 }
 
 const variabelJabatanAkademikDTPS = {
-  NDGB: readJabatanAkademik("3a1.json", "Guru Besar"),
-  NDLK: readJabatanAkademik("3a1.json", "Lektor Kepala"),
-  NDL: readJabatanAkademik("3a1.json", "Lektor"),
-  NDTPS: readJumlahKesesuaianDosenTetap("3a1.json"),
+  NDGB: readJabatanAkademik("../data/3a1.json", "Guru Besar"),
+  NDLK: readJabatanAkademik("../data/3a1.json", "Lektor Kepala"),
+  NDL: readJabatanAkademik("../data/3a1.json", "Lektor"),
+  NDTPS: readJumlahKesesuaianDosenTetap("../data/3a1.json"),
 }
 
 variabelJabatanAkademikDTPS.PGBLKL =
